@@ -9,7 +9,6 @@
 .headerLeft, .headerRight {
     display: flex;
     align-items: center;
-
 }
 
 a > span{
