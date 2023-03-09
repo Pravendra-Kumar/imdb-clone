@@ -1,18 +1,20 @@
 .header {
-    margin: 0 2.5rem;
+    margin: 0 2rem;
     padding: .5rem 0;
     align-items: center;
     display: flex;
     justify-content:space-between;
 }
 
-.headerLeft, .headerRight {
+.header-right{
     display: flex;
-    align-items: center;
+    justify-content:space-between;
+    align-items:flex-end;
+   
 }
 
 a > span{
-    margin: 0 30px;
+    margin: 0 2rem;
     font-size: 1.3rem;
     cursor: pointer;
     color: white;
@@ -23,8 +25,9 @@ a > span:hover {
 }
 
 .header-icon {
-    width: 80px;
+    width: 70px;
     cursor: pointer;
+    
 }
 
 .user-avatar {

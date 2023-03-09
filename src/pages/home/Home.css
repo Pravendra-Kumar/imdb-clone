@@ -2,20 +2,20 @@
     text-decoration: none;
 }
 .posterImage{
-    height: 82vh;
+    height: 85vh;
 }
 
 .posterImage > img {
     margin: auto;
     display: block;
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
     object-position: center;
 }
 
 .posterImage-overlay {
     position: absolute;
-    padding: 5rem;
+    padding: 2rem;
     bottom: 0px;
     height: 70%;
     display: flex;
